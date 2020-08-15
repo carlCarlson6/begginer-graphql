@@ -1,0 +1,28 @@
+{
+  "name": "begginer-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node source/index.ts",
+    "start": "tsc && ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git@github.com:carlCarlson6/begginer-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^7.14.4",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0",
+    "pg": "^8.3.0"
+  }
+}
