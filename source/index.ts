@@ -66,7 +66,7 @@ const main = async () => {
 
         Subscription: {
             newUser: {
-                subscribe: (parent: any, args: any, {pubsub}: any, info: any) => pubsub.asyncIterator()(NEW_USER)
+                subscribe: (parent: any, args: any, {pubsub}: any, info: any) => pubsub.asyncIterator(NEW_USER)
             }
         },
 
