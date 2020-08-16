@@ -1,0 +1,8 @@
+add a Repository/dbConn.ts with the following code:
+
+export const dbConn = {
+    connectionString: '<connectionString>',
+    ssl: {
+        "rejectUnauthorized": false
+    }
+}
